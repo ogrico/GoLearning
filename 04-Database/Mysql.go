@@ -19,6 +19,7 @@ func getAll(db *sql.DB) ([]Autor, error) {
 	if err != nil {
 		return nil, err
 	}
+
 	defer rows.Close()
 
 	var autores []Autor
@@ -68,6 +69,7 @@ func main() {
 	db.SetConnMaxLifetime(time.Minute * 3)
 	db.SetMaxOpenConns(10)
 	db.SetMaxIdleConns(5)
+
 	defer db.Close()
 
 	autores, err := getAll(db)
@@ -79,11 +81,10 @@ func main() {
 		fmt.Printf("ID: %d, Nombre: %s, Nacionalidad: %s\n", autor.ID, autor.Nombre, autor.Nacionalidad)
 	}
 
-	nuevoAutor, err := newAutor(db, "Test2", "Colombiano")
+	nuevoAutor, err := newAutor(db, "Test3", "Colombiano")
 	if err != nil {
 		log.Fatal(err)
 	}
-
 	fmt.Println("Autor creado:", nuevoAutor)
 
 }

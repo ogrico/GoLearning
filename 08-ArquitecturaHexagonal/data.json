@@ -1,0 +1,504 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Juan Perez",
+            "email": "juan.perez@example.com",
+            "accounts": [
+                {
+                    "account_number": "123456789",
+                    "balance": 1500.75
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED001",
+                    "credit_limit": 10000.00,
+                    "balance": 2500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4111111111111111",
+                    "card_limit": 5000.00,
+                    "current_debt": 1200.00
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Maria Gomez",
+            "email": "maria.gomez@example.com",
+            "accounts": [
+                {
+                    "account_number": "987654321",
+                    "balance": 2500.00
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED002",
+                    "credit_limit": 15000.00,
+                    "balance": 5000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4222222222222222",
+                    "card_limit": 8000.00,
+                    "current_debt": 3000.00
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Carlos Rodriguez",
+            "email": "carlos.rodriguez@example.com",
+            "accounts": [
+                {
+                    "account_number": "456123789",
+                    "balance": 3500.50
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED003",
+                    "credit_limit": 20000.00,
+                    "balance": 7500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4333333333333333",
+                    "card_limit": 10000.00,
+                    "current_debt": 4500.00
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Ana Lopez",
+            "email": "ana.lopez@example.com",
+            "accounts": [
+                {
+                    "account_number": "321654987",
+                    "balance": 4500.25
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED004",
+                    "credit_limit": 25000.00,
+                    "balance": 10000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4444444444444444",
+                    "card_limit": 12000.00,
+                    "current_debt": 6000.00
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Pedro Martinez",
+            "email": "pedro.martinez@example.com",
+            "accounts": [
+                {
+                    "account_number": "789654123",
+                    "balance": 5500.75
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED005",
+                    "credit_limit": 30000.00,
+                    "balance": 12500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4555555555555555",
+                    "card_limit": 15000.00,
+                    "current_debt": 7500.00
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Laura Hernandez",
+            "email": "laura.hernandez@example.com",
+            "accounts": [
+                {
+                    "account_number": "654123789",
+                    "balance": 6500.50
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED006",
+                    "credit_limit": 35000.00,
+                    "balance": 15000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4666666666666666",
+                    "card_limit": 18000.00,
+                    "current_debt": 9000.00
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Luis Fernandez",
+            "email": "luis.fernandez@example.com",
+            "accounts": [
+                {
+                    "account_number": "987123654",
+                    "balance": 7500.75
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED007",
+                    "credit_limit": 40000.00,
+                    "balance": 17500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4777777777777777",
+                    "card_limit": 20000.00,
+                    "current_debt": 10500.00
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Sofia Ramirez",
+            "email": "sofia.ramirez@example.com",
+            "accounts": [
+                {
+                    "account_number": "321789456",
+                    "balance": 8500.25
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED008",
+                    "credit_limit": 45000.00,
+                    "balance": 20000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4888888888888888",
+                    "card_limit": 22000.00,
+                    "current_debt": 12000.00
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Jorge Alvarez",
+            "email": "jorge.alvarez@example.com",
+            "accounts": [
+                {
+                    "account_number": "456789123",
+                    "balance": 9500.50
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED009",
+                    "credit_limit": 50000.00,
+                    "balance": 22500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "4999999999999999",
+                    "card_limit": 25000.00,
+                    "current_debt": 13500.00
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Diego Torres",
+            "email": "diego.torres@example.com",
+            "accounts": [
+                {
+                    "account_number": "789123456",
+                    "balance": 10500.75
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED010",
+                    "credit_limit": 55000.00,
+                    "balance": 25000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5000000000000000",
+                    "card_limit": 28000.00,
+                    "current_debt": 15000.00
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Paula Sanchez",
+            "email": "paula.sanchez@example.com",
+            "accounts": [
+                {
+                    "account_number": "147258369",
+                    "balance": 11500.00
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED011",
+                    "credit_limit": 60000.00,
+                    "balance": 27500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5111111111111111",
+                    "card_limit": 30000.00,
+                    "current_debt": 16500.00
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Ricardo Castillo",
+            "email": "ricardo.castillo@example.com",
+            "accounts": [
+                {
+                    "account_number": "258369147",
+                    "balance": 12500.25
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED012",
+                    "credit_limit": 65000.00,
+                    "balance": 30000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5222222222222222",
+                    "card_limit": 32000.00,
+                    "current_debt": 18000.00
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Gabriela Vargas",
+            "email": "gabriela.vargas@example.com",
+            "accounts": [
+                {
+                    "account_number": "369147258",
+                    "balance": 13500.50
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED013",
+                    "credit_limit": 70000.00,
+                    "balance": 32500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5333333333333333",
+                    "card_limit": 35000.00,
+                    "current_debt": 19500.00
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Fernando Ruiz",
+            "email": "fernando.ruiz@example.com",
+            "accounts": [
+                {
+                    "account_number": "123789456",
+                    "balance": 14500.75
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED014",
+                    "credit_limit": 75000.00,
+                    "balance": 35000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5444444444444444",
+                    "card_limit": 38000.00,
+                    "current_debt": 21000.00
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Monica Ortega",
+            "email": "monica.ortega@example.com",
+            "accounts": [
+                {
+                    "account_number": "789456123",
+                    "balance": 15500.00
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED015",
+                    "credit_limit": 80000.00,
+                    "balance": 37500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5555555555555555",
+                    "card_limit": 40000.00,
+                    "current_debt": 22500.00
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Andres Paredes",
+            "email": "andres.paredes@example.com",
+            "accounts": [
+                {
+                    "account_number": "456321789",
+                    "balance": 16500.25
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED016",
+                    "credit_limit": 85000.00,
+                    "balance": 40000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5666666666666666",
+                    "card_limit": 42000.00,
+                    "current_debt": 24000.00
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Daniela Reyes",
+            "email": "daniela.reyes@example.com",
+            "accounts": [
+                {
+                    "account_number": "654987321",
+                    "balance": 17500.50
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED017",
+                    "credit_limit": 90000.00,
+                    "balance": 42500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5777777777777777",
+                    "card_limit": 45000.00,
+                    "current_debt": 25500.00
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Eduardo Blanco",
+            "email": "eduardo.blanco@example.com",
+            "accounts": [
+                {
+                    "account_number": "321654987",
+                    "balance": 18500.75
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED018",
+                    "credit_limit": 95000.00,
+                    "balance": 45000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5888888888888888",
+                    "card_limit": 48000.00,
+                    "current_debt": 27000.00
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Carolina Vega",
+            "email": "carolina.vega@example.com",
+            "accounts": [
+                {
+                    "account_number": "123456789",
+                    "balance": 19500.00
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED019",
+                    "credit_limit": 100000.00,
+                    "balance": 47500.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "5999999999999999",
+                    "card_limit": 50000.00,
+                    "current_debt": 28500.00
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Felipe Herrera",
+            "email": "felipe.herrera@example.com",
+            "accounts": [
+                {
+                    "account_number": "987654321",
+                    "balance": 20500.25
+                }
+            ],
+            "credits": [
+                {
+                    "credit_id": "CRED020",
+                    "credit_limit": 105000.00,
+                    "balance": 50000.00
+                }
+            ],
+            "credit_cards": [
+                {
+                    "card_number": "6000000000000000",
+                    "card_limit": 53000.00,
+                    "current_debt": 30000.00
+                }
+            ]
+        }
+    ]
+}

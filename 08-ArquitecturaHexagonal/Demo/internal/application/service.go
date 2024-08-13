@@ -1,8 +1,8 @@
 package application
 
 import (
-	"github.com/ogrico/GoLearning/08-ArquitecturaHexagonal/Demo/internal/domain"
-	"github.com/ogrico/GoLearning/08-ArquitecturaHexagonal/Demo/internal/ports"
+	"Demo/internal/domain"
+	"Demo/internal/ports"
 )
 
 type UserService struct {
@@ -13,6 +13,10 @@ func NewUserService(repo ports.UserRepository) *UserService {
 	return &UserService{repo: repo}
 }
 
-func (s *UserService) CreateUser(user *domain.User) error {
-	return s.repo.Create(user)
+func (s *UserService) GetAllUsers() ([]domain.User, error) {
+	return s.repo.GetAllUsers()
+}
+
+func (s *UserService) GetUserByID(id string) (*domain.User, error) {
+	return s.repo.GetUserByID(id)
 }

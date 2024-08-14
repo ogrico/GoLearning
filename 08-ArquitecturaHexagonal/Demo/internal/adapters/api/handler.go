@@ -29,14 +29,12 @@ func (h *Handler) GetAllUsers(w http.ResponseWriter, r *http.Request) {
 }
 
 func (h *Handler) GetUserByID(w http.ResponseWriter, r *http.Request) {
-	// Extrae el ID de la URL utilizando mux.Vars
+	// Extrae el ID de la URL
 	vars := mux.Vars(r)
 	id := vars["id"]
 
-	// Utiliza el servicio para obtener la información del usuario por ID
 	user, err := h.userService.GetUserByID(id)
 	if err != nil {
-		// Si hay un error, responde con un mensaje de error
 		http.Error(w, err.Error(), http.StatusNotFound)
 		return
 	}

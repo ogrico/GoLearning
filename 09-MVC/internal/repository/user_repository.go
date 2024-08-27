@@ -21,7 +21,7 @@ func (r *UserRepository) GetAllUsers() ([]model.User, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer rows.Close()	
 
 	var users []model.User
 	for rows.Next() {
@@ -29,6 +29,7 @@ func (r *UserRepository) GetAllUsers() ([]model.User, error) {
 		if err := rows.Scan(&user.ID, &user.Name, &user.Email); err != nil {
 			return nil, err
 		}
+		//fmt.Print(user, "\n")
 		users = append(users, user)
 	}
 	return users, nil

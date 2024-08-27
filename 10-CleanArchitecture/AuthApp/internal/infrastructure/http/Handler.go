@@ -12,7 +12,7 @@ type AuthHandler struct {
 	AuthUseCase *usecase.AuthUseCase
 }
 
-// Login autentica y devuelve el token
+// GetToken autentica y devuelve el token
 func (h *AuthHandler) GetToken(c *gin.Context) {
 	var loginData struct {
 		Username string `json:"username"`
@@ -33,7 +33,7 @@ func (h *AuthHandler) GetToken(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"token": token})
 }
 
-// ValidateToken valida el token JWT
+// ValidateToken valida el token "Jwt"
 func (h *AuthHandler) ValidateToken(c *gin.Context) {
 	var request struct {
 		Jwt string `json:"jwt"`
